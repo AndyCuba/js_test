@@ -54,52 +54,20 @@
 //     () => alert('Вы отказались')
 // )
 
-
-//1
-// const BYN = 'Buying BYN to EUR 3,145/BYN to USD 2,657/BYN to GRN 8,07'
-// function askCurrency( question ) {
-//         let x = prompt('Здравствуйте! Курс какой валюты вы хотите узнать?')
-//         if (x === BYN) {
-//             return alert(BYN)
-//         } else {
-//             x = prompt('Выберите валюту')
-//         }
-// }
-
-// askCurrency('Здравствуйте! Курс какой валюты вы хотите узнать?')
+// const sum = (a, b) => a + b 
+// console.log (sum(41, 1))
 
 
-const BYN = 'Buying BYN to EUR 3,145/BYN to USD 2,657/BYN to GRN 8,07/BYN'
-const EUR = 'Buying EUR to USD 1.18/EUR to BYN 3,14/EUR to GRN 32,82/EUR'
-const USD = 'Buying USD to EUR 0,84/USD to BYN 0,38/USD to GRN 0,036/USD'
+// let colors = ['red', 'blue', 'black']
+// // colors.push ('white')
+// // colors.unshift ('purple')
+// // colors.shift () //delete the first element and return
+// // colors.pop () //delete the last elemet and return
+// // colors.reverse ()
+// // console.log (colors)
+// console.log(colors.includes('white'))
 
-let askCurrency = prompt ('Здравствуйте! Курс какой валюты вы хотите узнать?', 'BYN, USD, EUR')
-
-switch ( askCurrency ) {
-    case 'BYN':
-    case 'белки':
-    case 'белорусские рубли':
-        alert ( BYN )
-        break
-    case 'USD':
-    case 'доллары':
-    case 'баксы':
-        alert ( USD )
-        break
-    case 'EUR':
-    case 'евро':
-        alert ( EUR )
-        break
-    default:
-        alert ('Пожалуйста, обновите страницу и выберите курс валюты')
+let colors = ['red', 'blue', 'black']
+for (let color of colors){
+    alert(color)
 }
-
-// if (askCurrency === 'BYN' || 'белки' || 'белорусские рубли') {
-//     alert (BYN)
-// } else if (askCurrency === 'USD' || 'доллары' || 'баксы') {
-//     alert (USD)
-// } else if (askCurrency === 'EUR' || 'евро') {
-//     alert (EUR)
-// } else {
-//     alert (askCurrency)
-// }
