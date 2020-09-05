@@ -67,7 +67,41 @@
 // // console.log (colors)
 // console.log(colors.includes('white'))
 
-let colors = ['red', 'blue', 'black']
-for (let color of colors){
-    alert(color)
-}
+// let colors = ['red', 'blue', 'black']
+// for (let color of colors){
+//     alert(color)
+// }
+
+// let styles = ['Jazz', 'Blues']
+// styles.push ('Rock\'n\'roll')
+// styles [Math.floor((styles.length -1) /2)] = 'Classical music'
+// alert (styles.shift())
+// styles.unshift('Rap', 'Reggae')
+// console.log ( styles )
+
+// let sumInput = () => {
+//     let arr = []
+//     while (true) {
+//         let value = prompt('Введите число')
+//         if (value === '' || value === null || !isFinite(value)) break;
+//         arr.push( +value )
+//     }
+
+//     let sum = 0
+//     for (let number of arr) {
+//         sum += number
+//     }
+//     return sum
+// }
+// alert( sumInput ())
+
+
+let user = {
+    name: "John",
+    age: 30
+  };
+  
+  let key = prompt("Что вы хотите узнать о пользователе?", "name");
+  
+  // доступ к свойству через переменную
+  alert( user[key] ); // John (если ввели "name")
